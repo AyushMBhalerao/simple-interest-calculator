@@ -1,9 +1,34 @@
-# Cybersecurity Practicals 9 and 10
+# # Simple Interest Calculator
 
-Two independent, localhost-only teaching projects:
+## Description
+A simple interest calculator calculates the interest earned or paid on a principal amount over a specified period at a fixed annual interest rate.
 
-- [Practical 9: SQL injection and prevention](practical-09-sqli/README.md) — Node.js, Express, MariaDB, and `mysql2`.
-- [Practical 10: DOM-based XSS](practical-10-xss/README.md) — HTML, CSS, JavaScript, and a dependency-free Node static server.
+## Formula
+Simple Interest = (Principal × Rate × Time) / 100
 
-Each project has its own run instructions. Practical 9 needs its own `.env` and MariaDB initialization; Practical 10 needs no database or npm packages. Both intentionally vulnerable demonstrations are bound to loopback and use harmless dummy examples.
-# simple-interest-calculator
+Where:
+- **Principal:** The initial amount of money.
+- **Rate:** The annual interest rate in percentage.
+- **Time:** The duration in years.
+
+## Example
+Suppose:
+- Principal = 1000
+- Annual Interest Rate = 5%
+- Time = 2 years
+
+Calculation:
+
+Simple Interest = (1000 × 5 × 2) / 100 = 100
+
+**Simple Interest = 100**
+
+Total Amount = Principal + Simple Interest = 1100
+
+## Features
+- Calculates simple interest using the standard formula.
+- Accepts principal, annual interest rate, and time.
+- Displays the interest amount.
+
+## Technologies
+This README describes the calculator's logic. The implementation can be developed using a programming language such as Python, C++, or JavaScript.
